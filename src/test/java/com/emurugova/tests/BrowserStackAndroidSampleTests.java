@@ -19,7 +19,6 @@ public class BrowserStackAndroidSampleTests {
 
     public static MainConfig config = ConfigFactory.create(MainConfig.class, System.getProperties());
 
-    @Tag("android")
     @Test
     void searchTest() throws MalformedURLException, InterruptedException {
         DesiredCapabilities caps = new DesiredCapabilities();
